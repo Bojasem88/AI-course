@@ -1,0 +1,84 @@
+Logistic Regression:
+
+
+a.Basics of Classification
+
+
+User:what is classification problem?
+Bot:A classification problem is when the output variable is a categorized.
+
+User:Diference between classification and regression?
+Bot:Regression means to predict the output value using training data. Classification means to group the output into a class.
+
+
+User:what are the algorithms we use in classification? 
+Bot: Logistic Regression.
+     Naïve Bayes.
+     Stochastic Gradient Descent.
+     K-Nearest Neighbours.
+     Decision Tree. 
+     Random Forest.
+     Support Vector Machine.
+
+
+User:what is logistic regression?
+Bot:A logistic regression algorithm looks at the relationship between a dependent variable and one or more dependent variables.
+
+
+
+
+
+b)Maths behind Logistic Regression
+
+
+User:what is the equation for Logistic Regression?
+Bot:The basic equation is:
+     g(E(y)) = ? + ?x1 + ?x2
+     In the equation,
+     g(): link function
+     E(y): expected value of the target variable
+     ?, ? and ?: values which are to be predicted
+
+
+User:what is Logit Function?
+Bot:The logit in logistic regression is a special case of a link function in a generalized linear model: it is the canonical link function for the Bernoulli distribution. 
+
+User:Why isn't Logistic Regression called Logistic Classification?
+Bot:Since Logistic Regression is a statistical classification model dealing with categorical dependent variables.
+
+
+User:What is Collinearity in Logistic Regression?
+Bot:Multicollinearity is a common problem when estimating linear or generalized linear models, including logistic regression and Cox regression. It occurs when there are high correlations among predictor variables, leading to unreliable and unstable estimates of regression coefficients.
+
+
+
+c)Performance analysis
+
+User:When is logistic regression will be used?
+Bot:It is used mostly when the dependent variable is categorical, the independent variables can be discrete or continuous.
+
+
+User:How is logistic regression used? What conditions and types of variables should be used?
+Bot:Logistic regression is a powerful statistical way of modeling a binomial outcome (takes the value 0 or 1 like having or not having a disease) with one or more explanatory variables.
+
+User:What criteria it should have to get a probability default and probability not default?
+Bot:To get the probability of default (success, in this case, p) and the probability of not default (failure, q = 1-p). Now, the function should be able to meet the following criteria:
+     p should be greater than or equal to 0
+     p should be less than or equal to 1
+
+
+User:what is ROC curves?
+Bot:ROC curves are commonly used to characterize the sensitivity/specificity tradeoffs for a binary classifier. The ROC curve plots true positive rate against false positive rate, giving a picture of the whole spectrum of such trade-offs.
+
+
+User:what is confusion matrix?
+Bot: confusion matrix is a table that is often used to describe the performance of a classification model (or “classifier”) on a set of test data for which the true values are known.
+
+
+d)Applications of Logistic Regression
+
+
+User:what are the applications of Logistic Regression?
+Bot:Logistic regression is used in various fields, including machine learning, most medical fields, and social sciences. For example, the Trauma and Injury Severity Score (TRISS), which is widely used to predict mortality in injured patients, was originally developed by Boyd et al. using logistic regression.
+
+

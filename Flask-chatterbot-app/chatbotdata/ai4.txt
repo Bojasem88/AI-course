@@ -1,0 +1,35 @@
+What is artificial neural network?
+Ans-Artificial Neural Network is a biologically inspired network of artificial neurons configured to perform specific tasks.
+What is artificial neuron?
+An artificial neuron is a mathematical function conceived as a model of biological neurons, a neural network. Artificial neurons are elementary units in an artificial neural network.
+What are the other names of artificial neural networks?
+The artificial neural networks are also called as:Neural nets,Artificial neural systems,Parallel distributed processing systems,Connectionist system
+What is a distributed graph?
+The distributed graph consists of set of nodes and set of connections, connecting pair of nodes.
+How Artificial Neurons Learns?
+This is a two paradigm process-Associative Mapping:   Here the network produces a pattern output by working in a pattern on the given input.,Regularity Detection:  In this, units learn to respond to particular properties of the input patterns. Whereas in associative mapping the network stores the relationships among patterns, in regularity detection the response of each unit has a particular ‘meaning’. This type of learning mechanism is essential for feature discovery and knowledge representation.
+List Some Commercial Practical Applications Of Artificial Neural Networks?
+Since neural networks are best at identifying patterns or trends in data, they are well suited for prediction or forecasting needs including:,sales forecasting,industrial process control,customer research,data validation,risk management,target marketing
+What are different classes of network architectures?
+Three basic different classes of network architectures are:,Single-layer feed-forward Neural Networks ,Multi-layer feed-forward Neural Networks ,Recurrent Neural Networks
+What is the architecture of neural network?
+A typical neural network contains a large number of artificial neurons called units arranged in a series of layers. Input layer Hidden layer and Output layer.
+What is an activation function?
+The activation function of a node defines the output of that node, or "neuron," given an input or set of inputs. 
+What are different types of activation functions?
+There are 2 types of activation functions – Linear Activation Functions ,Non Linear Activation Functions
+What does an activation function do?
+Activation functions are used to learn and make sense of something really complicated and Non-linear complex functional mappings between the inputs and response variable. They introduce non-linear properties to our Network. 
+What is the hidden layer?
+A hidden layer in an artificial neural network is a layer in between input layers and output layers.
+What is the role of a hidden layer?
+An artificial neural network consists of an input layer where it receives inputs and output layer where it outputs. The hidden layer is a layer which is hidden in between input and output layers since the output of one layer is the input of another layer.
+What are parameters in neural network?
+The parameters of a neural network are typically the weights of the connections.
+What is backward propagation?
+Backward propagation of the propagation's output activations through the neural network using the training pattern target in order to generate the deltas of all output and hidden neurons.
+What are the steps involved in Weight update?
+For each weight-synapse follow the following steps:,Multiply its output delta and input activation to get the gradient of the weight.,Subtract a ratio (percentage) of the gradient from the weight.
+This ratio (percentage) influences the speed and quality of learning; it is called the learning rate. The greater the ratio, the faster the neuron trains; the lower the ratio, the more accurate the training is. The sign of the gradient of a weight indicates where the error is increasing, this is why the weight must be updated in the opposite direction.
+Repeat phase 1 and 2 until the performance of the network is satisfactory.
+

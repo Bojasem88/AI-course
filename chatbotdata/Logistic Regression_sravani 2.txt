@@ -1,0 +1,106 @@
+Logistic Regression
+ 
+Basics of classification:
+ 
+1.       What is Logistic Regression?
+
+A: It is a Machine Learning classification algorithm that is used to predict the probability of a categorical dependent variable.  
+
+2. In logistic regression, the dependent variable can be?
+
+A: Dependent variable is a binary variable that contains data coded as 1 or 0.
+
+3. What is the difference between linear and logistic regression?
+
+A: Linear Regression can have any one of an infinite number of possible values. In logistic regression, the 
+
+outcome (dependent variable) has only a limited number of possible values. Logistic regression is used 
+
+when the response variable is categorical in nature. Linear regression is used when your response variable 
+
+is continuous.
+
+4. What does a sigmoid function do?
+
+A: It is used in neural networks to give logistic neurons real-valued output that is a smooth and bounded 
+
+function of their total input. It also has the added benefit of having nice derivatives which make learning 
+
+the weights of a neural network easier.
+
+5. What is the range of the output values for a sigmoid function?
+
+A: Sigmoid functions have domain of all real numbers, with return value monotonically increasing most 
+
+often from 0 to 1 or alternatively from ?1 to 1, depending on convention.
+ 
+Maths behind Logistic Regression:
+
+1. What is a Logistic function?
+
+A: Logistic Function is f(z) = 1/(1+e -z ).
+
+2. What is the range of values of a logistic function?
+
+A: The values of a logistic function will range from 0 to 1. The values of Z will vary from -infinity to 
+
++infinity
+
+3. What is precision?
+
+A: Precision is the proportion of true positives out of predicted positives. It is the accuracy of the prediction. 
+
+It is also known as the ‘positive predictive value’. Precision = TP/TP+FP
+
+4. What is Recall?
+
+A: Recall or TPR (True Positive Rate) refers to the ratio of positives correctly predicted from all the true 
+
+labels. It is the frequency of correctly predicted true labels. TPR = TP/TP+FN
+
+5. What is F-Measure?
+
+A: It is the harmonic mean of precision and recall. In some cases, there will be a trade-off between the 
+
+precision and the recall. In such cases, the F-measure will drop. It will be high when both the precision and 
+
+the recall are high. Depending on the business case at hand and the goal of data analytics, an appropriate 
+
+metric should be selected. F-measure = 2 X (Precision X Recall) / (Precision + Recall)
+ 
+Performance Analysis:
+ 
+1. Which method do we use to best fit the data in Logistic Regression?
+
+A: Logistic regression uses maximum likely hood estimate for training a logistic regression.
+
+2.  What is the Maximum Likelihood Estimator (MLE)?
+
+A: MLE is a statistical approach to estimating the parameters of a mathematical model.
+
+3.  Which is the best method to analyze the performance of Logistic Regression?
+
+A: A model with minimum AIC value is the best method to analyze the performance of Logistic Regression.
+
+4.  What is AIC value in logistic regression?
+
+A: The Akaike information criterion (AIC) is an estimator of the relative quality of statistical models for a 
+
+given set of data. Given a collection of models for the data, AIC estimates the quality of each model, relative 
+
+to each of the other models.
+
+5.  Which algorithm do we use for Variable Selection?
+
+A: In case of LASSO (Least Absolute Shrinkage and Selection Operator), we apply absolute penality, after 
+
+increasing the penality in LASSO some of the coefficient of variables may become zero.
+ 
+Applications:
+1. Based on bank customer history, predicting whether to give loan or not can be solved using which type of classification?
+A: Using Binary Classification, loan grant prediction can be solved.
+2. Based on color intensities, prediction of color type can be solved using which type of classification?
+A: Using Multi Classification, color type prediction can be done.
+3. Weather information/prediction is obtained by using which type of classification?
+A: Using Binary Classification, Weather prediction can be done.
+

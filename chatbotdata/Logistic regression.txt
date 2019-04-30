@@ -1,0 +1,92 @@
+Basics of classification
+
+1. What is classification?
+Ans-Classification is an algorithm that is used to predict what category data belongs to.
+
+2. What is classification in supervised learning?
+Ans- In machine learning and statistics, classification is a supervised learning approach in which the computer program learns from the data input given to it and then uses this learning to classify new observation.
+
+
+3. What are the types classification algorithm?
+Ans- The Classification Algorithms (Python) are:
+ >Logistic Regression. 
+>Naive Bayes.
+>Stochastic Gradient Descent.
+> K-Nearest Neighbours. 
+>Decision Tree. 
+>Random Forest.
+>Support Vector Machine.
+
+4. What is Logistic Regression?
+Ans-Logistic regression is named for the function used at the core of the method, the logistic function.The logistic function, also called the sigmoid function was developed by statisticians to describe properties of population growth in ecology, rising quickly and maxing out at the carrying capacity of the environment.    
+
+5. What is the purpose of logistic regression?
+Ans-The logistic regression is a predictive analysis. Logistic regression is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent variables.
+
+Maths behind the logistic regression
+
+1. What is a logistic function? What is the range of values of a logistic function?
+Ans-f(z) = 1/(1+e -z )
+The values of a logistic function will range from 0 to 1. The values of Z will vary from -infinity to +infinity.
+2. Why is logistic regression very popular?
+Ans-Logistic regression is famous because it can convert the values of logits (logodds), which can range from -infinity to +infinity to a range between 0 and 1. As logistic functions output the probability of occurrence of an event, it can be applied to many real-life scenarios. It is for this reason that the logistic regression model is very popular.
+3. What is the formula for the logistic regression function?
+Ans-f(z) = 1/(1+e-(?+1X1+2X2+….+kXk))
+4. What is the formula for calculating odds ratio?
+Ans-
+
+In the formula above, X1 and X0 stand for two different groups for which odds ratio needs to be calculated. X1i stands for the instance ‘i’ in group X1. Xoi stands for the instance ‘i’ in group X0.stands for the coefficient of the logistic regression model. Note that the baseline is not included in this formula.
+
+
+
+Performance Analysis
+
+1.What is the factors which effect the performance ?
+Ans- The factors which effect the performance are: 
+ >Precision
+>Recall
+
+2. What is recall?
+Ans-The fraction of relevant instances that have been retrieved over the total amount of relevant instances. The recall is intuitively the ability of the classifier to find all the positive samples.
+Recall= tp/tp+fn
+
+3. What is precision?
+Ans-The fraction of relevant instances among the retrieved instances. The precision is intuitively the ability of the classifier to not label a sample as positive if it is negative.
+Precision= tp/tp+fp
+
+4. What is f1 score?
+Ans-F1 Score is the measure that combines precision and recall is the harmonic mean of precision and recall.
+ F=2*(Precision.recall)/(precision+recall)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Applications of Logistic Regression
+1. What are the applications of Logistic Regression?
+Ans-Applications of Logistic Regression are : Image Segmentation and Categorization, Healthcare, Handwriting recognition and Geographic Image Processing.
+
+
+
+       
+

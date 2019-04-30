@@ -1,0 +1,45 @@
+<link href="{{ url_for('static', filename='stylesheets/style.css') }}" rel="stylesheet" id="bootstrap-css">
+<script src="{{ url_for('static', filename='stylesheets/jsonfile.js') }}"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+  </head>
+  <body>
+    <h1>	AI Chatbot For AI</h1>
+	<h1>KAIZEN TRAINING - BOOTUP</h1>
+    <h3>-Created By Mohammad Hamid & Mohammad Marwan-</h3>
+    <br>
+	<div>
+      <div id="chatbox">
+        <p class="botText"><span>Hi! I am your AI assistant, how I can help you.</span></p>
+      </div>
+      <div id="userInput">
+        <input id="textInput" type="text" name="msg" placeholder="Your Question">
+        <input id="buttonInput" type="submit" value="Send">
+      </div>
+      <script>
+        function getBotResponse() {
+          var rawText = $("#textInput").val();
+          var userHtml = '<p class="userText"><span>' + rawText + '</span></p>';
+          $("#textInput").val("");
+          $("#chatbox").append(userHtml);
+          document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+          $.get("/get", { msg: rawText }).done(function(data) {
+            var botHtml = '<p class="botText"><span>' + data + '</span></p>';
+            $("#chatbox").append(botHtml);
+            document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+          });
+        }
+        $("#textInput").keypress(function(e) {
+            if(e.which == 13) {
+                getBotResponse();
+            }
+        });
+        $("#buttonInput").click(function() {
+          getBotResponse();
+        })
+      </script>
+    </div>
+  </body>
+</html>

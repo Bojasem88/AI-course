@@ -1,0 +1,95 @@
+Linear Regression:
+
+a.Basics of Regression
+
+
+User:what is regression?
+Bot:Regression is basically a statistical approach to find the relationship between variables.
+
+
+User:what are the types of Regression?
+Bot:types of Regression are
+    1)Linear Regression.
+    2)Logistic Regression
+    3)Polynomial Regression
+    4)Stepwise Regression
+    5)Ridge Regression
+    6)Lasso Regression
+    7)ElasticNet Regression
+
+
+User:What is Linear Regression?
+Bot:Linear Regression is a very simple approach for supervised learning.It is used to predict a Quantitative responce Y from the predictor variable X.
+
+
+User:Why is Linear Regression used?
+Bot:Linear Regression is used to predict the outcome of an event based on the relationship between variables obtained from the dataset.
+
+
+User:When we use the Regression?
+Bot:If the output is continous number then we have to use Regression.
+
+
+
+b)Maths behind Linear Regression
+
+
+User:What is the simple Linear Regression equation?
+Bot:Y=a+bX.
+    Y->dependent variable
+    X->independent variable
+    b->slope of the line
+    a->Y-intercept
+
+
+User:How we calculate y-intercept?
+Bot:The Y-intercept is calculated using the formula b=y Mean-m*x Mean
+
+
+User:What is Correlation coefficient?
+Bot:Normalization form of Covariance is known as Correlation Coefficient. 
+
+
+User:How are Correlation and Covariance related?
+Bot:A measure used to represent how strongly two random variables are related known as correlation. Covariance is nothing but a measure of correlation.
+
+
+User:Which methods do we use to find the best fit line for data in Linear Regression?
+Bot:Least Square Error.
+
+
+User:What is Least Square Regression?
+Bot:Least Square Regression is a method which minimizes the error in such away that the sum of all square error is minimized.
+
+
+User:Which is used for variable selection in Linear Regression?
+Bot:Lasso Regularization.
+
+
+
+c)Performance analysis
+
+User:When we say the Strong positive Correlation?
+Bot:If output is .99 then it is a strong positive correlation.
+
+
+
+User:Can we use linear regression for time series analysis?
+Bot:We can use linear regression for time series analysis, but the results are not promising. So, it is generally not advisable to do so. The reasons behind this are —
+Time series data is mostly used for the prediction of the future, but linear regression seldom gives good results for future prediction as it is not meant for extrapolation.
+Mostly, time series data have a pattern, such as during peak hours, festive seasons, etc., which would most likely be treated as outliers in the linear regression analysis.
+
+
+User: How do you know that linear regression is suitable for any given data?
+Bot:To see if linear regression is suitable for any given data, a scatter plot can be used. If the relationship looks linear, we can go for a linear model. But if it is not the case, we have to apply some transformations to make the relationship linear. Plotting the scatter plots is easy in case of simple or univariate linear regression. But in case of multivariate linear regression, two-dimensional pairwise scatter plots, rotating plots, and dynamic graphs can be plotted.
+
+d)Applications of Linear Regression
+
+User:what are the applications of Linear Regression?
+Bot:Prominent applications of linear regression are :
+    1)Financial forecasting
+    2)Software cost prediction, software effort prediction and             software quality assurance.
+    3)Restructuring of the budget : Organization or Country
+    4)Crime Data Mining : Predicting the crime rate of a states based on drug usage, number of gangs, human trafficking, and Killings.
+
+

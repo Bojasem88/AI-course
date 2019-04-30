@@ -1,0 +1,29 @@
+What is Deep Learning?
+Deep Learning is a brsnch of Machine Learning which is completely based on artificial Neural Network.
+What are Neurons?
+Neurons are part of artificial neural networks which are interconnected webnodes.
+what are types of neural networks?
+Feedforward ANN,FeedBack ANN
+What is Neural Network?
+Interconnected web of nodes called Neurons and edges that join them together is called Neural Network.
+what is activation function?
+activation function of a node defines the output of that node, or "neuron," given an input or set of inputs. This output is then used as input for the next node and so on until a desired solution to the original problem is found.
+what is the purpose of activation function?
+Their main purpose is to convert a input signal of a node in a A-NN to an output signal. That output signal now is used as a input in the next layer in the stack.
+what activation function will do?
+It sums the input values and if  is this value is greater than the threshold limit then output is 1 else 0.
+what are different activation function?
+Linear,Binary step function,Sigmod function,Relu
+what does hidden layer mean?
+A hidden layer in an artificial neural network is a layer in between input layers and output layers, where artificial neurons take in a set of weighted inputs and produce an output through an activation function. I
+what is parameter optimization?
+A fancy name for training: the selection of parameter values, which are optimal in some desired sense (eg. minimize an objective function you choose over a dataset you choose). The parameters are the weights and biases of the
+network.
+what is overfitting?
+One of the problems that occur during neural network training is called overfitting. The error on the training set is driven to a very small value, but when new data is presented to the network the error is large. The network has memorized the training examples, but it has not learned to generalize to new situations.
+how you reduce overfitting?
+Steps for reducing overfitting:Add more data,Use data augmentation,Use architectures that generalize well,Add regularization (mostly dropout, L1/L2 regularization are also possible),Reduce architecture complexity.
+what is backpropogation?
+The Backpropagation algorithm looks for the minimum value of the error function in weight space using a technique called the delta rule or gradient descent. The weights that minimize the error function is then considered to be a solution to the learning problem. 
+why backpropogation is usede?
+It is a algorithm used for training a neural network.

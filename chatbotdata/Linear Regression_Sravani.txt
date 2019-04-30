@@ -1,0 +1,124 @@
+Linear Regression
+ 
+Basic Questions:
+ 
+1. What is Regression?
+
+A: In statistical modeling, regression analysis is a set of statistical processes for estimating the relationships 
+
+among variables.
+
+2. What is a Linear Regression?
+
+A: A Supervised Learning Algorithm used to predict the relationship between independent and 
+
+dependent variables by examining two factors.
+
+3. What is a Multiple Linear Regression?
+
+A: It is a statistical technique used to predict the outcome of a response variable through several explanatory 
+
+variables and model the relationships between them.
+
+4. What parameters are involved in Linear Regression Model?
+
+A: ‘m’ & ‘c’. It is very important to update the m and c values, to reach the best value that minimize the 
+
+error between predicted value and true value.
+
+5. What is the Cost Function (J) of Linear Regression?
+
+A: Cost function (J) of Linear Regression is the Root Mean Squared Error (RMSE) between predicted 
+
+Values and true value.
+
+6. What is Gradient Descent?
+
+A: Gradient descent is an important algorithm in Linear Regression which is used for minimizing cost 
+
+Functions.
+ 
+Math’s behind Linear Regression:
+ 
+1. How to calculate Mean of a variable? / What is Mean of a variable?
+
+A: The total sum of the values of the variable divided by the number of values gives the Mean of 
+
+the Variable.
+
+2. For values of x= [1, 2, 4, 3, 5]. Calculate Mean of x.
+
+A: 3.000, where mean(x) = sum(x) / count(x)
+
+3. Calculate Variance of Y, where Y= [1, 3, 3, 2, 5].
+
+A: 8.800, where variance of Y = sum ((Y - mean(Y)) ^2)
+
+4. What is Mean Square Error?
+
+A: Mean Square Error (MSE) measures the average magnitude of the errors in a set of predictions, without 
+
+Considering their direction.
+
+5. When is the build Linear Regression model called most accurate?
+
+A: When Mean Square Error (MSE) is Zero (0).
+
+6. What is the range of Mean Square Error?
+
+A: Mean Square Error measures the average magnitude of the errors in a set of predictions, without 
+
+Considering their direction. Its value is always ?0.
+
+7. Calculate Mean Square Error where Actual value Y= [1, 2, 3, 4, 5] and Predicted value Y`= [1, 
+
+3, 3, 2, 4]
+
+A: the Value of Mean Square Error is 0.4.
+ 
+Performance Analysis:
+ 
+1. Which method is used to find the best fit line for data in Linear Regression?
+
+A: Least Square Error. In linear regression, we try to minimize the least square errors of the model to 
+
+Identify the line of best fit.
+
+2. Tell something about outliers in linear regression.
+
+A: The slope of the regression line will change due to outliers in most of the cases. So Linear Regression is 
+
+Sensitive to outliers.
+
+3. Which method is used for predicting continuous dependent variable?
+
+A: Linear Regression is used for predicting Continuous dependent variable.
+ 
+Applications:
+ 
+1. How does Linear Regression plays its role in Economics?
+
+A: Linear regression is the predominant empirical tool in economics. It is used to predict consumption 
+
+Spending, fixed investment spending, inventory investment, purchases of a country’s exports, spending on 
+
+Imports, the demand to hold liquid assets, labor demand, and labor supply.
+
+2. Can Linear Regression be applicable in the stream of Biology?
+
+A: Linear regression is used to model causal relationships between parameters in biological systems.
+
+3. How do Finance Platform use Linear Regression?
+
+A: Capital price asset model uses linear regression to analyze and quantify the systematic risks of an 
+
+Investment.
+
+4. Which method can be used to generate insights on consumer behavior, understanding business and factors 
+
+Influencing profitability?
+
+A: Linear Regression is used to generate insights on Customer Behavior.
+ 
+ 
+

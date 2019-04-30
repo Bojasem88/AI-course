@@ -1,0 +1,100 @@
+     Artificial Neural Network
+
+Basics of neurons and ANN:
+
+1. What is artificial neural network?
+Ans-Artificial Neural Network is a biologically inspired network of artificial neurons configured to perform specific tasks.
+2. What is artificial neuron?
+Ans- An artificial neuron is a mathematical function conceived as a model of biological neurons, a neural network. Artificial neurons are elementary units in an artificial neural network.
+3. What are the other names of artificial neural networks?
+Ans- The artificial neural networks are also called as:
+> Neural nets
+> Artificial neural systems
+> Parallel distributed processing systems
+> Connectionist system
+
+4. What is a distributed graph?
+Ans- The distributed graph consists of set of nodes and set of connections, connecting pair of nodes.
+5. How Artificial Neurons Learns?
+Ans : This is a two paradigm process-
+o Associative Mapping:   Here the network produces a pattern output by working in a pattern on the given input.
+o Regularity Detection:  In this, units learn to respond to particular properties of the input patterns. Whereas in associative mapping the network stores the relationships among patterns, in regularity detection the response of each unit has a particular ‘meaning’. This type of learning mechanism is essential for feature discovery and knowledge representation.
+ 
+
+
+
+6. List Some Commercial Practical Applications Of Artificial Neural Networks?
+Ans : Since neural networks are best at identifying patterns or trends in data, they are well suited for prediction or forecasting needs including:
+6. sales forecasting
+7. industrial process control
+8. customer research
+9. data validation
+10. risk management
+11. target marketing
+
+
+
+Neural network Architecture:
+
+1. What are different classes of network architectures?
+Ans-Three basic different classes of network architectures are:
+• Single-layer feed-forward Neural Networks 
+• Multi-layer feed-forward Neural Networks 
+• Recurrent Neural Networks
+2. What is the architecture of neural network?
+Ans-A typical neural network contains a large number of artificial neurons called units arranged in a series of layers. Input layer Hidden layer and Output layer.
+
+Activation Function
+1. What is an activation function?
+Ans- The activation function of a node defines the output of that node, or "neuron," given an input or set of inputs. 
+2. What are different types of activation functions?
+Ans-There are 2 types of activation functions – 
+* Linear Activation Functions 
+* Non Linear Activation Functions
+
+3. What does an activation function do?
+Ans- Activation functions are used to learn and make sense of something really complicated and Non-linear complex functional mappings between the inputs and response variable. They introduce non-linear properties to our Network. 
+
+
+Hidden layer
+1. What is the hidden layer?
+Ans- A hidden layer in an artificial neural network is a layer in between input layers and output layers.
+
+2. What is the role of a hidden layer?
+
+    Ans- An artificial neural network consists of an input layer where it receives           inputs and output layer where it outputs. The hidden layer is a layer which is hidden in between input and output layers since the output of one layer is the input of another layer.
+
+
+
+
+Parameters to Optimize
+
+
+1. What are parameters in neural network?
+Ans- The parameters of a neural network are typically the weights of the connections.
+
+
+
+
+
+
+
+
+
+
+
+Introduction to back propagation: 
+
+1. What is backward propagation?
+Ans-Backward propagation of the propagation's output activations through the neural network using the training pattern target in order to generate the deltas of all output and hidden neurons.
+
+2. What are the steps involved in Weight update?
+Ans-For each weight-synapse follow the following steps:
+1. Multiply its output delta and input activation to get the gradient of the weight.
+2. Subtract a ratio (percentage) of the gradient from the weight.
+This ratio (percentage) influences the speed and quality of learning; it is called the learning rate. The greater the ratio, the faster the neuron trains; the lower the ratio, the more accurate the training is. The sign of the gradient of a weight indicates where the error is increasing, this is why the weight must be updated in the opposite direction.
+Repeat phase 1 and 2 until the performance of the network is satisfactory.
+
+
+
+

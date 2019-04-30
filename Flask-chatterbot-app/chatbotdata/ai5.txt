@@ -1,0 +1,34 @@
+what is regression?
+Regression is a statistical measure  that determines the strength of the relationship between one dependent variable (usually denoted by Y) and a series of other changing variables (known as independent variables).
+What  is linear regression?
+Linear regression is a basic and commonly used type of predictive analysis.These regression estimates are used to explain the relationship between one dependent variable and one or more independent variables.
+what are different types of linear regression?
+There are three types of linear regressions.They are:Univariate linear regression.,Multivariate linear regression.,Polynomial linear regression.
+which type of data sets are used for linear regression?
+Labelled training set is used for linear regression.
+What are the disadvantages of the linear model?
+Linear regression is sensitive to outliers which may affect the result.Over-fitting,Under-fitting
+what are the applications of linear regression?
+Linear Regression applications are:Studying engine performance from test data in automobiles,Least squares regression is used to model causal relationships between parameters in biological systems,OLS regression can be used in weather data analysis,It can be used in market research studies and customer survey results analysis,It is used in observational astronomy commonly enough.
+What are some of the ways in which linear regression can be used in real life?
+Linear Regression is used in a lot of areas in real life. Let’s understand some of them with examples:,Predicting the marks of a student.,Predicting the price of a certain item.,Estimating the number of sales of an item.,Housing price prediction.,Predicting the salary of a person.,Cricket score prediction.
+What are the sectors in which we can apply linear regression?
+The sectors in which we can apply linear regression are: business, health care and banking sectors.
+What is the difference between R square and adjusted R square?
+R square and adjusted R square values are used for model validation in case of linear regression. R square indicates the variation of all the independent variables on the dependent variable. i.e. it considers all the independent variable to explain the variation. In the case of Adjusted R squared, it considers only significant variables(P values less than 0.05) to indicate the percentage of variation in the model.
+How to interpret a Q-Q plot in a Linear regression model?
+Q-Q plot is used to check the normality of errors. In the above chart mentioned, Majority of the data follows a normal distribution with tails curled. This shows that the errors are mostly normally distributed but some observations may be due to significantly higher/lower values are affecting the normality of errors.
+What is the significance of an F-test in a linear model?
+The use of F-test is to test the goodness of the model. When the model is re-iterated to improve the accuracy with changes, the F-test values prove to be useful in terms of understanding the effect of overall regression.
+what is the equation of linear reggression?
+The equation of linear reggression is Y^=mx+C.
+What are the important assumptions of Linear regression?
+There are three assumptions of linear regression.They are,linear relationship,Restricted Multi-collinearity value,Homoscedasticity,Firstly, there has to be a linear relationship between the dependent and the independent variables. To check this relationship, a scatter plot proves to be useful.,Secondly, there must no or very little multi-collinearity between the independent variables in the dataset. The value needs to be restricted, which depends on the domain requirement.,The third is the homoscedasticity. It is one of the most important assumptions which states that the errors are equally distributed.
+What is heteroscedasticity?
+Heteroscedasticity is exactly the opposite of homoscedasticity, which means that the error terms are not equally distributed. To correct this phenomenon, usually, a log function is used.
+What are the possible ways of improving the accuracy of a linear regression model?
+There could be multiple ways of improving the accuracy of a linear regression, most commonly used ways are as follows:,Outlier Treatment:Regression is sensitive to outliers, hence it becomes very important to treat the outliers with appropriate values. Replacing the values with mean, median, mode or percentile depending on the distribution can prove to be useful.
+
+
+
+ 
