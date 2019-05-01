@@ -1,2 +1,5 @@
-# FinalProject
-AI final project - Kaizen
+This is the first phase, it was completed during Kaizen-Bootup AI course, the production model with multiple integrations is to showcase the capabilities of this solution.
+A chatbot is just a visual courier of inputs and outputs in the form of a conversational message. The inputs are the users’ responses to the chatbot, and the outputs are the chatbot’s messages to the users. A chatbot is merely a visual user interface (UI) used to present these inputs and outputs in a user-friendly manner.
+Phase 1 final outlook will be in 3 variances; integration to Telegram “famous & secure chat application,” web integration with server hosted on-premise, and hominoid assistant using Raspberry Pi. The base code will support both text and voice inputs in English.
+To build a powerful AI we focused on the Data Not the Chatbot, the database was prepared as a set question and answers about AI, full of unique words and jargons, to ensure detection of question by the AI even if the word was misspelled. We used the Chatterbot engine. It is a machine-learning based conversational dialog engine build in Python which makes it possible to generate responses based on collections of known conversations
+The program selects the closest matching response by searching for the closest matching known statement that matches the input, it then returns the most likely response to that statement based on how frequently each response is issued by the people the bot communicates with.
